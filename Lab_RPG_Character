@@ -25,4 +25,4 @@ def create_charcter ( name, forza, intelligenza, carisma):
     riga4 = full_dot * carisma + empty_dot * (10 - carisma)
     return riga1 + "\n" + riga2 + "\n" + riga3 + "\n" + riga4 + "\n"
 
-print (create_charcter("Omar", 4, 2, 1))
+print (create_charcter("Omar", 4, 3, 1))
