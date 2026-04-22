@@ -20,9 +20,9 @@ def create_charcter ( name, forza, intelligenza, carisma):
         return "The character attributes should sum up to 7"
     
     riga1 = name
-    riga2 = full_dot * forza + empty_dot * (10 - forza)
-    riga3 = full_dot * intelligenza + empty_dot * (10 - intelligenza)
-    riga4 = full_dot * carisma + empty_dot * (10 - carisma)
+    riga2 = "Forza: " + full_dot * forza + empty_dot * (10 - forza)
+    riga3 = "Intelligenza: " + full_dot * intelligenza + empty_dot * (10 - intelligenza)
+    riga4 = "Carisma: " + full_dot * carisma + empty_dot * (10 - carisma)
     return riga1 + "\n" + riga2 + "\n" + riga3 + "\n" + riga4 + "\n"
 
-print (create_charcter("Omar", 4, 2, 2))
+print (create_charcter("Omar", 4, 2, 1))
