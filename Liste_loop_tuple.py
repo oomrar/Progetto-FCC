@@ -19,7 +19,7 @@ print("-------------------------------------------------------------------------
 #Esercizio con loop for e while
 #Hai una lista di prezzi (numeri) che rappresentano i prodotti nel tuo carrello. Alcuni prodotti sono difettosi (prezzo = 0) e il tuo budget è limitato.
 carrello = [["Pane", 10], ["Pasta", 20], ["Mozzarella", 0], ["Vino", 15], ["Birra", 50], ["Coca Cola", 5], ["Acqua", 12]]
-budget = 32
+budget = 60
 totale_spesa = 0
 prodotti_acquistati = 0
 prodotti_presi = []
