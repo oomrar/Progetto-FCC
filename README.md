@@ -1,18 +1,20 @@
-# 🐍 Il mio percorso con Python (freeCodeCamp)
+# 🐍 My Python Journey (freeCodeCamp)
 
-Questa repository contiene tutti gli esercizi, gli appunti e i piccoli script che sto scrivendo mentre seguo il corso di **Scientific Computing with Python** su freeCodeCamp.
+This repository contains all the exercises, notes, and scripts I am writing while completing the **Scientific Computing with Python** certification on freeCodeCamp.
 
-## 📂 Cosa c'è dentro
-- `esercizi/`: Soluzioni alle sfide del corso.
-- `progetti/`: I 5 progetti finali richiesti per la certificazione.
+## 📂 What's inside
+- `exercises/`: Solutions to the course challenges.
+- `notes/`: Quick notes on variables, loops, functions, and data structures.
+- `projects/`: The 5 final projects required for the certification.
 
-## 🛠️ Cosa sto imparando
-- Sintassi di base di Python
-- Manipolazione di stringhe e liste
-- Gestione dei file
-- Utilizzo di Regular Expressions (Regex)
-- Fondamenti di programmazione orientata agli oggetti
+## 🛠️ What I am learning
+- Python basic syntax
+- String and list manipulation
+- File handling
+- Regular Expressions (Regex)
+- Object-Oriented Programming (OOP) fundamentals
 
 ---
-*In fase di aggiornamento costante...* 🚀
+*Constantly updated...* 🚀
+
 
