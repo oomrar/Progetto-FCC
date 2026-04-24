@@ -40,3 +40,25 @@ for item in carrello:
     prodotti_presi.append(prodotto)
 print("Ho speso in totale: €", totale_spesa, "e ho acquistato", prodotti_acquistati, "prodotti: ", prodotti_presi)
 print("Il resto è: €", budget - totale_spesa)
+
+print("-------------------------------------------------------------------------------" \
+"" \
+"" \
+"")
+
+
+#Caveau blindato
+password_corretta= "Open Sesame"
+tentativi_rimasti= 3
+
+while tentativi_rimasti > 0:
+    password_inserita = input("Inserisci la password per aprire il caveau:")
+    if password_inserita == password_corretta:
+        print("Caveau aperto")
+        break
+    else:
+        tentativi_rimasti -=1
+        print("Password errata. Tentativi rimasti:", tentativi_rimasti)
+        if tentativi_rimasti == 0:
+            print("Caveau bloccato. Contatta l'amministratore.")
+            break
