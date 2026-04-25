@@ -18,3 +18,5 @@ def number_pattern (n):
 
 print (number_pattern(3))
 
+#Finish
+
