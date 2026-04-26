@@ -3,7 +3,7 @@ import re
 medical_records = [
     {
         'patient_id': 'P1001',
-        'age': 34,
+        'age': 35,
         'gender': 'Female',
         'diagnosis': 'Hypertension',
         'medications': ['Lisinopril'],
@@ -40,14 +40,14 @@ def find_invalid_records(
 ):
     constraints = {
         'patient_id': isinstance(patient_id, str)
-        and re.fullmatch('p\d+', patient_id, re.IGNORECASE),
+        and re.fullmatch('p\\d+', patient_id, re.IGNORECASE),
         'age': isinstance(age, int) and age >= 18,
         'gender': isinstance(gender, str) and gender.lower() in ('male', 'female'),
         'diagnosis': isinstance(diagnosis, str) or diagnosis is None,
         'medications': isinstance(medications, list)
         and all([isinstance(i, str) for i in medications]),
         'last_visit_id': isinstance(last_visit_id, str)
-        and re.fullmatch('v\d+', last_visit_id, re.IGNORECASE)
+        and re.fullmatch('v\\d+', last_visit_id, re.IGNORECASE)
     }
     return [key for key, value in constraints.items() if not value]
 
@@ -63,7 +63,7 @@ def validate(data):
         ['patient_id', 'age', 'gender', 'diagnosis', 'medications', 'last_visit_id']
     )
 
-    for index, dictionary in enumerate(data):
+    for index, dictionary in enumerate(data, 1):
         if not isinstance(dictionary, dict):
             print(f'Invalid format: expected a dictionary at position {index}.')
             is_invalid = True
