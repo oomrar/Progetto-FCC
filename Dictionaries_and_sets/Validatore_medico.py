@@ -3,7 +3,7 @@ import re
 medical_records = [
     {
         'patient_id': 'P1001',
-        'age': 35,
+        'age': 17,
         'gender': 'Female',
         'diagnosis': 'Hypertension',
         'medications': ['Lisinopril'],
