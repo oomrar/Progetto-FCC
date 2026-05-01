@@ -22,4 +22,4 @@ for tipo in ordine_cliente:
     if categoria == "Dolce":
         contatore_dolci += 1
     
-    print (f"{nome} è un piatto {valuta_calorie(calorie)} ({calorie} kcal)")
+    print (f"{nome} è un piatto {valuta_calorie(calorie)} ({calorie} cal)")
