@@ -3,7 +3,7 @@
 
 print()
 
-class Persona():
+class Persona:
     def __init__(self, nome, cognome, eta):
         self.nome = nome
         self.cognome = cognome
