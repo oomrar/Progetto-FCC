@@ -5,6 +5,7 @@
 print()
 
 class Rettangolo:
+
     def __init__(self, larghezza, altezza):
         self.larghezza = larghezza
         self.altezza = altezza
@@ -37,7 +38,6 @@ class Rettangolo:
         else:
             print("Entrambi i rettangoli hanno la stessa area")
         
-
     def contiene(self, altro):
         condizione_larghezza = self.larghezza > altro.larghezza
         condizione_altezza = self.altezza > altro.altezza
