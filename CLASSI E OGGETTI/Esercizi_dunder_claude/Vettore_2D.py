@@ -24,7 +24,6 @@ class Vettore:
     def __mul__(self, scalare):
         return Vettore(x = self.x * scalare, y = self.y * scalare)
     
-
     def __eq__(self, altro):
         return self.x == altro.x and self.y == altro.y
 
