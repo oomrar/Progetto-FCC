@@ -57,6 +57,6 @@ class Serbatoio:
         if self.in_riserva:
             print("ATTENZIONE! Veicolo in riserva")
 
-
-
+s = Serbatoio(capacita_max=60.0, livello_iniziale=45.0)
+s.stato()
 print()
