@@ -1,6 +1,4 @@
-# 🐍 My Python Journey 
-
-# 🎓 Scientific Computing with Python Certification (freeCodeCamp)
+# 🐍 My Python Journey (freeCodeCamp)
 
 This repository contains my completed solutions, scripts, and certification projects for the **Scientific Computing with Python** program on [freeCodeCamp](https://www.freecodecamp.org/).
 
